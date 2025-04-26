@@ -1,0 +1,67 @@
+﻿// Store for message components
+export const omens = [
+    "A flock of pigeons forms the shape of a question mark",
+    "Toast stubbornly refuses to darken evenly",
+    "A single sock goes missing, only to reappear on a cat",
+    "A kettle whistles a slightly off-key melody",
+    "A spider spins a web with an unusual asymmetry",
+    "The shadow of a cloud briefly resembles a rubber chicken",
+    "A dandelion seed floats directly into the pitcher of wine",
+    "The milk in your tea swirls in a clockwise direction",
+    "A shoelace comes undone precisely as a threshold is crossed",
+    "A sudden gust of wind jostles meticulously placed papers",
+    "A ladybird is spotted in a most unexpected location",
+    "The sound of distant bagpipes drifts inexplicably closer",
+    "A squirrel buries a nut under a dying tree",
+    "The reflection in a puddle is hazy from the rain",
+    "A particularly round rock is found by a plough",
+    "The leaves on a single branch of a tree tremble for no apparent reason",
+    "A fly buzzes insistently around a half-empty glass",
+    "A pattern on wallpaper fades unevenly"
+];
+
+export const divinationElements = [
+    "the knave of spoons juggles carelessly",
+    "algiz points… sideways",
+    "the scattered lentils form the vague shape of a teapot",
+    "the pendulum swings with unexpected enthusiasm",
+    "the eight trigrams align in a baffling configuration",
+    "the crystal ball fogs up, then clears to show a blurry banana",
+    "the tea leaves spell out a single, ambiguous initial",
+    "the bones land in a formation resembling a surprised cat",
+    "the tarot deck smells faintly of cinnamon",
+    "the hexagram flickers momentarily before solidifying",
+    "the runes whisper secrets you can almost understand",
+    "the geomantic figures refuse to pair neatly",
+    "the ogham staves spell out a word you've never heard before",
+    "the astrological chart shows an unusual conjunction of planets",
+    "the palm lines on your left hand seem to have rearranged themselves",
+    "the flames in the candle dance with erratic glee",
+    "the pattern in the spilled salt vaguely suggests a tiny hat",
+    "the flight of the paper airplane is surprisingly meaningful",
+    "the arrangement of the dominoes hints at a forgotten times",
+    "the drawn straw is inexplicably bendy"
+];
+
+export const vaguePredictions = [
+    "This week, a familiar scent will evoke a fleeting memory.",
+    "Before the month is out, you will encounter a slightly damp object.",
+    "Sometime soon, a small inconvenience will lead to a minor triumph.",
+    "In the near future, you may find yourself humming an unfamiliar tune.",
+    "An unexpected sound will briefly startle you.",
+    "A decision you didn't realize you were making will soon be finalized.",
+    "You will experience a moment of mild confusion regarding a household item.",
+    "A subtle change in the weather will prompt a fleeting thought.",
+    "Someone you know will say something slightly obvious.",
+    "An opportunity to point out something trivial will present itself.",
+    "You will briefly wonder where you left something you have in your hand.",
+    "A minor craving for a specific foodstuff will arise.",
+    "You will notice a small detail you've previously overlooked.",
+    "A brief moment of contentment will occur, possibly involving a beverage.",
+    "Something you thought was lost will turn up in an obvious place.",
+    "You will have a fleeting urge to rearrange something on a shelf.",
+    "A piece of technology will behave in a slightly unexpected manner.",
+    "You will overhear a snippet of a conversation that makes no sense.",
+    "A minor adjustment to your routine will feel surprisingly significant.",
+    "Before long, you will have a passing thought about the color blue."
+];
