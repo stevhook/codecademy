@@ -1,5 +1,7 @@
-<h1>codecademy-challenges</h1>
-As part of my learning I have been completing codecademy projects and challenges. The challenges are small applied exercises which have become more complex and now require me to do my work in my own IDE (rather than the web box offered). This is a repository of the code I've used to solve these challenges.
+<h1>Codecademy</h1>
+As part of my learning I have been completing codecademy courses. My progress can be seen on my <a href='https://www.codecademy.com/profiles/Stev1202'>Codecademy profile</a>. 
+    
+Various parts of the courses set challengesand as these have become more complex I have decided to store the solutions in this repository. 
 
 <h2>Challenges</h2>
 <ul>
