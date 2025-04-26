@@ -1,11 +1,12 @@
+//Wide-scope parameters
+const dnaBases = ['A', 'T', 'C', 'G']
+
 // Returns a random DNA base
 const returnRandBase = () => {
-  const dnaBases = ['A', 'T', 'C', 'G']
-  return dnaBases[Math.floor(Math.random() * 4)] 
+    return dnaBases[Math.floor(Math.random() * 4)] 
 }
-// Returns a random DNA base which is different to the base input
+// Returns a random DNA base different from the input base
 const returnDifBase = (base) => {
-  const dnaBases = ['A', 'T', 'C', 'G']
   const difBases = dnaBases.filter(i => {
     return !(i === base)
   })
@@ -27,7 +28,7 @@ const calcSimilarity = (a,b) => {
   let simCount = 0;
   for (let i = 0; i < 15; i++) {
     if (a[i] === b[i]) {
-    simCount++
+    simCount++;
     }
   }
   const similarity = Math.round(simCount/15 * 10000)/100
@@ -99,13 +100,13 @@ const mostSimilar = (pAequorArr) => {
   let maxSimilarity = 0
   let mostSimilarPair = [null, null]
     for (i = 0; i < pAequorArr.length - 1; i++) {
-      for (j = i + 1; j < pAequorArr.length;) {
+      for (j = i + 1; j < pAequorArr.length; j++) {
         let similarity = calcSimilarity(pAequorArr[i]._dna,pAequorArr[j]._dna)
         if (similarity > maxSimilarity) {
           maxSimilarity = similarity;
           mostSimilarPair[0] = pAequorArr[i]._specimenNum
           mostSimilarPair[1] = pAequorArr[j]._specimenNum
-        } else break
+        }
       }
     }
     const message = `Specimen #${mostSimilarPair[0]} and specimen #${mostSimilarPair[1]} have the highest level of similaity within the group. There DNA is ${maxSimilarity}% similar.`
@@ -119,7 +120,7 @@ const mostSimilar = (pAequorArr) => {
 const samp1 = pAequorFactory(1)
 const samp2 = pAequorFactory(2)
 console.log(samp1._dna.join(''))
-//console.log(samp2._dna.join('')) 
+console.log(samp2._dna.join('')) 
 console.log(samp1.complementStrand().join(''))
 console.log(samp1.compareDNA(samp2)) //Should print comparison message
 console.log(samp1.willLikelySurvive()) //Should print boolean
