@@ -109,7 +109,7 @@ const mostSimilar = (pAequorArr) => {
         }
       }
     }
-    const message = `Specimen #${mostSimilarPair[0]} and specimen #${mostSimilarPair[1]} have the highest level of similaity within the group. There DNA is ${maxSimilarity}% similar.`
+    const message = `Specimen #${mostSimilarPair[0]} and specimen #${mostSimilarPair[1]} have the highest level of similarity within the group. There DNA is ${maxSimilarity}% similar.`
     return message
   }
 

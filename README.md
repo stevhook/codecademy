@@ -3,7 +3,13 @@ As part of my learning I have been completing codecademy projects and challenges
 
 <h2>Challenges</h2>
 <ul>
-  <li>Building Interactive Websites
-    <ul><li><a href='https://github.com/stevhook/codecademy-challenges/tree/main/Interactive-Websites/Mysterious-Organism'>Mysterious Organism</a></li>
+    <li>Web Development Foundations
+    <ul>
+        <li><a href='https://github.com/stevhook/codecademy-challenges/tree/main/web-development-foundations/Tea-Cozy'>Tea Cozy</a></li>
+</ul>
+    </li>
+    <li>Building Interactive Websites
+    <ul>
+        <li><a href='https://github.com/stevhook/codecademy-challenges/tree/main/Interactive-Websites/Mysterious-Organism'>Mysterious Organism</a></li>
     </ul></li>
 </ul>
