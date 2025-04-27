@@ -11,8 +11,9 @@ Various parts of the courses set challenges, and as these have become more compl
 * Building Interactive Websites
     * [Mysterious Organism](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/mysterious-organism)
     * [Piano Keys](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/piano-keys)
+    * [Form-A-Story](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/form-a-story)
 
-## Portfoilio projects
+## Portfolio projects
 
 * [Soothsayer](https://github.com/stevhook/codecademy-challenges/tree/main/portfolio-projects/soothsayer) - Javascript Syntax Project
 
