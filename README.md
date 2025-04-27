@@ -8,7 +8,7 @@ Various parts of the courses set challenges, and as these have become more compl
 
 * Web Development Foundations
     * [Tea Cozy](https://github.com/stevhook/codecademy-challenges/tree/main/web-development-foundations/tea-cozy)
-    * [HTML Cheatsheet]
+    * [HTML Cheatsheet](https://github.com/stevhook/codecademy-challenges/tree/main/web-development-foundations/html-cheatsheet)
 * Building Interactive Websites
     * [Mysterious Organism](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/mysterious-organism)
     * [Piano Keys](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/piano-keys)
