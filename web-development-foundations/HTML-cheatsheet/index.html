@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stev's HTML cheatsheet</title>
+    <link href="resources/index.css" rel="stylesheet">
+</head>
+<body>
+<!--Nav bar-->
+<div class="nav">
+    <h2>Typography</h2>
+    <h2><a href="#colourtitle">Colour</a></h2>
+</div>
+<!--Title banner-->
+<h1>Stev's CSS cheat sheet</h1>
+<!--Body-->
+<!--Typography-->
+<!--Colour-->
+<div class="colour">
+    <h2 id="colourtitle">Colour</h2>
+    <p>
+        Colour is an important part of website design.
+        It can be tough to pick the right colour theme but applying the theme to your site is straightforward.
+    </p>
+    <h3>How to describe colours in code</h3>
+    <p>
+        There are many ways we can use our code to add colour but first we need to be able to identify the colours we want in our code.
+        There are four main ways we can identify colours in our code. :</p>
+    <ul>
+        <li><a href="#colour names">colour names</a></li>
+        <li><a href="#hexcodes">hexcodes</a></li>
+        <li><a href="#rgb">rgb</a></li>
+        <li><a href="#hsl">hsl</a></li>
+    </ul>
+    <h4 id="colour names">Colour names</h4>
+    <p>
+        There are <a href="https://www.w3.org/wiki/CSS/Properties/color/keywords">147 predefined color names</a>. These allow you to write out a colour name to identify a colour in your code.
+        You might want your text to be <span class="examplecode" style="color:lightsalmon">lightsalmon</span> on a <span class="examplecode" style="color:navajowhite">navajowhite</span> background.
+        You could choose <span class="examplecode" style="color:tomato">tomato</span> to emphasise certain sections.
+        All you have to do is refer to one of the predefined colour names in your code.
+    </p>
+    <h4 id="hexcodes">Hexcodes</h4>
+    <p>
+        Hexcodes are a way of converting colours into a 6 digit hexidecimal number prefaced with a hash.
+        These can be used to describe the predefined colours like <span class="examplecode" style="color:skyblue">skyblue (#4682b4)</span> or <span class="examplecode" style="color:orchid">orchid (#da70d6)</span>.
+        The real advantage over colour names though is that we can use colours outside the list of 147 predefined colours. We can use <span class="examplecode" style="color:#937ac3">#937ac3</span>, <span class="examplecode" style="color:#0c8927">#0c8927</span> or <span class="examplecode" style="color:#6786d6">#6786d6</span>.
+        If your hexidecimal value is made up of 3 matching pairs we can shorten these to 3 single characters. So <span class="examplecode" style="color:#aa5522">#aa5522</span> and <span class="examplecode" style="color:#a52">#a52</span> are interpretted the same.
+    </p>
+    <h4 id="rgb">RGB</h4>
+    <p>
+        RGB allows us to define colours by giving values for Red, Green and Blue which when combined create colour. This is done by using the <span class="examplecode">rgb(r,g,b)</span> function: where r, g and b are numbers between 0 and 255 inclusive.
+        An example of this would be <span class="examplecode" style="color:rgb(120,165,23)">rgb(120,165,23)</span> or <span class="examplecode" style="color:rgb(197, 76, 24)">rgb(197,76,24</span>.
+    </p>
+    <h4 id="hsl">HSL</h4>
+    <p>HSL works on a similar method to RGB, but instead we define Hue, Saturation and Lightness. This uses the <span class="examplecode">hsl(h,s,l)</span> function: where h is between 0 and 360, and s & l are percentages.
+        An example of this would be <span class="examplecode" style="color:hsl(124, 74%, 32%)">hsl(124,74%,32%)</span> or <span class="examplecode" style="color:hsl(334, 81%, 29%)">hsl(334,81%,29%)</span>.
+    </p>
+    <h3>RGB and HSL example grids</h3>
+    <p>
+        RGB and HSL both rely on 3 inputs. We can explore what those inputs do in more detail by showing how changes to individual elements change the overall colour.
+    </p>
+</div>
+<div class="Progression">
+    <h4>R increasing by 15</h4>
+    <div class="rprog">
+        <div class="colour-1"></div>
+        <div class="colour-2"></div>
+        <div class="colour-3"></div>
+        <div class="colour-4"></div>
+        <div class="colour-5"></div>
+    </div>
+    <h4>G increasing by 15</h4>
+    <div class="gprog">
+        <div class="colour-1"></div>
+        <div class="colour-2"></div>
+        <div class="colour-3"></div>
+        <div class="colour-4"></div>
+        <div class="colour-5"></div>
+    </div>
+    <h4>B increasing by 15</h4>
+    <div class="bprog">
+        <div class="colour-1"></div>
+        <div class="colour-2"></div>
+        <div class="colour-3"></div>
+        <div class="colour-4"></div>
+        <div class="colour-5"></div>
+    </div>
+    <h4>H increasing by 30</h4>
+    <div class="hprog">
+        <div class="colour-1"></div>
+        <div class="colour-2"></div>
+        <div class="colour-3"></div>
+        <div class="colour-4"></div>
+        <div class="colour-5"></div>
+    </div>
+    <h4>S increasing by 10%</h4>
+    <div class="sprog">
+        <div class="colour-1"></div>
+        <div class="colour-2"></div>
+        <div class="colour-3"></div>
+        <div class="colour-4"></div>
+        <div class="colour-5"></div>
+    </div>
+    <h4>L increasing by 10%</h4>
+    <div class="lprog">
+        <div class="colour-1"></div>
+        <div class="colour-2"></div>
+        <div class="colour-3"></div>
+        <div class="colour-4"></div>
+        <div class="colour-5"></div>
+    </div>
+</div>
+
+</body>
+<footer>
+    <p>This project is part of my journey learning to code.</p>
+    <contact>stevhook@proton.me</contact>
+</footer>
+</html>

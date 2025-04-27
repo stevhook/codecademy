@@ -8,6 +8,7 @@ Various parts of the courses set challenges, and as these have become more compl
 
 * Web Development Foundations
     * [Tea Cozy](https://github.com/stevhook/codecademy-challenges/tree/main/web-development-foundations/tea-cozy)
+    * [HTML Cheatsheet]
 * Building Interactive Websites
     * [Mysterious Organism](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/mysterious-organism)
     * [Piano Keys](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/piano-keys)
@@ -15,5 +16,6 @@ Various parts of the courses set challenges, and as these have become more compl
 
 ## Portfolio projects
 
-* [Soothsayer](https://github.com/stevhook/codecademy-challenges/tree/main/portfolio-projects/soothsayer) - Javascript Syntax Project
+* [Soothsayer](https://github.com/stevhook/codecademy-challenges/tree/main/portfolio-projects/soothsayer) - A simple soothsaying function
+* [Portfoilio website](https://github.com/stevhook/codecademy-challenges/tree/main/portfolio-projects/portfolio-website) - A website to showcase my progress so far, incorporating what I have learnt so far.
 
