@@ -25,7 +25,11 @@
         return sum / this._ratings.length;
     }
     addRating(rating) {
-        this._ratings.push(rating);
+        if (rating >= 1 && rating <= 5) {
+            this._ratings.push(rating);
+        } else {
+            console.log('Rating should be between 1 and 5');
+        }
     }
 }
 class Book extends Media {
