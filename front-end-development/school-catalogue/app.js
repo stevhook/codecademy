@@ -6,7 +6,10 @@
         } else {
             console.log(`'${level}' is not a valid school level. Please retry using 'primary', 'middle' or 'high'.`)
         }
-        this._numberOfStudents = numberOfStudents;
+        if (numberOfStudents > 0) {
+            this._numberOfStudents = numberOfStudents;
+        } else {
+            console.log('Invalid input: numberOfStudents must be a positive number.');
     }
     get name() {
         return this._name;
@@ -68,6 +71,10 @@ class SchoolCatalogue {
         return this._schools
     }
     addSchool(name, level, numberOfStudents, additional) {
+        if (!['primary', 'middle', 'high'].includes(level)) {
+            console.log(`'${level}' is not a valid school level. Please use 'primary', 'middle', or 'high'.`);
+            return;
+        }
         switch(level) {
             case 'primary':
                 this._schools.push(new PrimarySchool(name, numberOfStudents, additional)); break;
@@ -80,13 +87,13 @@ class SchoolCatalogue {
 }
 
 // Examples of use
-lorraineHansbury = new PrimarySchool('Lorraine Hansbury', 514, 'Students must be picked up by a parent, guardian, or a family member over the age of 13.')
+const lorraineHansbury = new PrimarySchool('Lorraine Hansbury', 514, 'Students must be picked up by a parent, guardian, or a family member over the age of 13.')
 lorraineHansbury.quickFacts()
-rosterOfSubs = ['Jamal Crawford', 'Lou Williams', 'J. R. Smith', 'James Harden', 'Jason Terry', 'Manu Ginobli']
+const rosterOfSubs = ['Jamal Crawford', 'Lou Williams', 'J. R. Smith', 'James Harden', 'Jason Terry', 'Manu Ginobli']
 console.log(School.pickSubstituteTeacher(rosterOfSubs))
-alSmith = new HighSchool('Al E. Smith', 415, ['Baseball', 'Basketball', 'Volleyball', 'Track and Field'])
+const alSmith = new HighSchool('Al E. Smith', 415, ['Baseball', 'Basketball', 'Volleyball', 'Track and Field'])
 console.log(alSmith.sportsTeams)
-schoolsInMaine = new SchoolCatalogue([lorraineHansbury, alSmith])
+const schoolsInMaine = new SchoolCatalogue([lorraineHansbury, alSmith])
 console.log(schoolsInMaine)
 schoolsInMaine.addSchool('Newman','middle',504)
 console.log(schoolsInMaine)

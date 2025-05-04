@@ -19,6 +19,7 @@ My current progress is shown below (as at 4 May 2025)
     * [Form-A-Story](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/form-a-story)
 * Front-end Development
   * [Build a Library](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/build-a-library)
+  * [School Catalogue](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/school-catalogue)
 
 ## Portfolio projects
 
