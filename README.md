@@ -19,3 +19,7 @@ Various parts of the courses set challenges, and as these have become more compl
 * [Soothsayer](https://github.com/stevhook/codecademy-challenges/tree/main/portfolio-projects/soothsayer) - A simple soothsaying function
 * [Portfoilio website](https://github.com/stevhook/codecademy-challenges/tree/main/portfolio-projects/portfolio-website) - A website to showcase my progress so far, incorporating what I have learnt so far.
 
+## Examination scripts
+As I've progressed the examination components of the course have also started to involve writing more complex code. Which I have uploaded below.
+
+* [Building Interactive Websites Exam Part 2](https://github.com/stevhook/codecademy-challenges/tree/main/examination-scripts/building-interactive-websites-exam-part-2)
