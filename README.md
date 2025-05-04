@@ -4,9 +4,11 @@ As part of my learning, I have been completing Codecademy courses. My progress c
 
 Various parts of the courses set challenges, and as these have become more complex, I have decided to store the solutions in this repository. I've also included portfolio projects which are larger projects that give me implementation freedom and are an opportunity for me to apply what I've learned so far. 
 
-My current progress is shown below (as at 4 May 2025)
+My current progress on a large full-stack developer course is shown below (as at 4 May 2025). I have also received some certificates for completing a discrete git course.
 
 [![](./progress.png)](./progress.png)
+## Certificates
+* [Git & GitHub](https://www.codecademy.com/profiles/Stev1202/certificates/a8ab218d5950c29861635cc0bf12fd13)
 
 ## Challenges
 
