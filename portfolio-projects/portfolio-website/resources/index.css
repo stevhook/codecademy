@@ -82,8 +82,6 @@ a:hover {
 }
 
 /* Styling for button */
-
-
 .theme-btn {
     font-size: 1.5rem;
     font-weight: 400;
@@ -91,7 +89,6 @@ a:hover {
     padding: 13px 20px 13px;
     min-width: 45%;
     height: 2.5rem;
-    
     outline: none;
     border: 1px solid #02140e;
     cursor: pointer;
@@ -103,7 +100,7 @@ a:hover {
 }
 
 .theme-btn button {
-    position: absolute; /* Make the button cover the full size of the parent div */
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -112,8 +109,8 @@ a:hover {
     color: #02140e;
     font-size: 1.5rem;
     font-weight: 400;
-    background-color: transparent; /* Transparent background for the button */
-    border: none; /* Remove the button's default border */
+    background-color: transparent;
+    border: none;
     cursor: pointer;
 }
 

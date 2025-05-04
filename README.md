@@ -4,6 +4,10 @@ As part of my learning, I have been completing Codecademy courses. My progress c
 
 Various parts of the courses set challenges, and as these have become more complex, I have decided to store the solutions in this repository. I've also included portfolio projects which are larger projects that give me implementation freedom and are an opportunity for me to apply what I've learned so far. 
 
+My current progress is shown below (as at 4 May 2025)
+
+[![](./progress.png)](./progress.png)
+
 ## Challenges
 
 * Web Development Foundations
