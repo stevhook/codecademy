@@ -20,8 +20,8 @@
         this._isCheckedOut = !this._isCheckedOut;
     }
     getAverageRating() {
-        const sum = this._ratings.reduce((acc, current) => {
-            return acc + current}, 0)
+        if (this._ratings.length === 0) return 0;
+        const sum = this._ratings.reduce((acc, current) => acc + current, 0);
         return sum / this._ratings.length;
     }
     addRating(rating) {
@@ -82,6 +82,7 @@ class CD extends Media {
         return shuffledSongs;
     }
 }
+
 
 // Example usage:
 const historyOfEverything = new Book('Bill Bryson', 'A Short History of Nearly Everything', 544);
