@@ -17,6 +17,8 @@ My current progress is shown below (as at 4 May 2025)
     * [Mysterious Organism](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/mysterious-organism)
     * [Piano Keys](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/piano-keys)
     * [Form-A-Story](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/form-a-story)
+* Front-end Development
+  * [Build a Library](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/build-a-library)
 
 ## Portfolio projects
 
