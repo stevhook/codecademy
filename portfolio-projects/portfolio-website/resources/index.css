@@ -7,9 +7,10 @@
  */
 
 /* Import Google fonts*/
-.tagesschrift-regular {
-    font-family: "Tagesschrift", system-ui;
-    font-weight: 400;
+.raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
     font-style: normal;
 }
 
@@ -22,7 +23,7 @@
 
 /* Set a base font and background */
 body {
-    font-family: Tagesschrift, serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-image: url("forest-scene.jpg");
@@ -30,7 +31,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #333;
+    color: #02140e;
 }
 
 /* Styling for the navigation bar */
@@ -45,10 +46,10 @@ body {
     padding: 20px;
     box-shadow: 0 40px 20px rgba(0, 0, 0, 0.2); 
     /*border-radius: 16px;*/
-    border-color: #000;
+    border-color: #02140e;
     border-style: solid;
     border-width: 4px;
-    background-color: #eceece;
+    background-color: #cdcfaa;
 }
 
 /* Styling for headings */
