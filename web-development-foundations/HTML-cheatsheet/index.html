@@ -5,25 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stev's HTML cheatsheet</title>
     <link href="resources/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--Nav bar-->
 <div class="nav">
-    <h2>Typography</h2>
     <h2><a href="#colourtitle">Colour</a></h2>
+    <h2><a href="#coloursystems">Colour systems</a></h2>
+    <h2><a href="#examples">Examples</a></h2>
 </div>
 <!--Title banner-->
 <h1>Stev's CSS cheat sheet</h1>
-<!--Body-->
-<!--Typography-->
 <!--Colour-->
 <div class="colour">
+    <div class="colourtext">
     <h2 id="colourtitle">Colour</h2>
     <p>
         Colour is an important part of website design.
         It can be tough to pick the right colour theme but applying the theme to your site is straightforward.
     </p>
-    <h3>How to describe colours in code</h3>
+    <h3 id="coloursystems">Colour Systems</h3>
     <p>
         There are many ways we can use our code to add colour but first we need to be able to identify the colours we want in our code.
         There are four main ways we can identify colours in our code. :</p>
@@ -50,18 +53,18 @@
     <h4 id="rgb">RGB</h4>
     <p>
         RGB allows us to define colours by giving values for Red, Green and Blue which when combined create colour. This is done by using the <span class="examplecode">rgb(r,g,b)</span> function: where r, g and b are numbers between 0 and 255 inclusive.
-        An example of this would be <span class="examplecode" style="color:rgb(120,165,23)">rgb(120,165,23)</span> or <span class="examplecode" style="color:rgb(197, 76, 24)">rgb(197,76,24</span>.
+        An example of this would be <span class="examplecode" style="color:rgb(120,165,23)">rgb(120,165,23)</span> or <span class="examplecode" style="color:rgb(197, 76, 24)">rgb(197,76,24)</span>.
     </p>
     <h4 id="hsl">HSL</h4>
     <p>HSL works on a similar method to RGB, but instead we define Hue, Saturation and Lightness. This uses the <span class="examplecode">hsl(h,s,l)</span> function: where h is between 0 and 360, and s & l are percentages.
         An example of this would be <span class="examplecode" style="color:hsl(124, 74%, 32%)">hsl(124,74%,32%)</span> or <span class="examplecode" style="color:hsl(334, 81%, 29%)">hsl(334,81%,29%)</span>.
     </p>
-    <h3>RGB and HSL example grids</h3>
+    <h3 id="examples">RGB and HSL example grids</h3>
     <p>
         RGB and HSL both rely on 3 inputs. We can explore what those inputs do in more detail by showing how changes to individual elements change the overall colour.
     </p>
-</div>
-<div class="Progression">
+    </div>
+    <div class="colourexamples">
     <h4>R increasing by 15</h4>
     <div class="rprog">
         <div class="colour-1"></div>
@@ -69,6 +72,11 @@
         <div class="colour-3"></div>
         <div class="colour-4"></div>
         <div class="colour-5"></div>
+        <div class="colour-6"></div>
+        <div class="colour-7"></div>
+        <div class="colour-8"></div>
+        <div class="colour-9"></div>
+        <div class="colour-10"></div>
     </div>
     <h4>G increasing by 15</h4>
     <div class="gprog">
@@ -77,6 +85,11 @@
         <div class="colour-3"></div>
         <div class="colour-4"></div>
         <div class="colour-5"></div>
+        <div class="colour-6"></div>
+        <div class="colour-7"></div>
+        <div class="colour-8"></div>
+        <div class="colour-9"></div>
+        <div class="colour-10"></div>
     </div>
     <h4>B increasing by 15</h4>
     <div class="bprog">
@@ -85,6 +98,11 @@
         <div class="colour-3"></div>
         <div class="colour-4"></div>
         <div class="colour-5"></div>
+        <div class="colour-6"></div>
+        <div class="colour-7"></div>
+        <div class="colour-8"></div>
+        <div class="colour-9"></div>
+        <div class="colour-10"></div>
     </div>
     <h4>H increasing by 30</h4>
     <div class="hprog">
@@ -93,6 +111,11 @@
         <div class="colour-3"></div>
         <div class="colour-4"></div>
         <div class="colour-5"></div>
+        <div class="colour-6"></div>
+        <div class="colour-7"></div>
+        <div class="colour-8"></div>
+        <div class="colour-9"></div>
+        <div class="colour-10"></div>
     </div>
     <h4>S increasing by 10%</h4>
     <div class="sprog">
@@ -101,6 +124,11 @@
         <div class="colour-3"></div>
         <div class="colour-4"></div>
         <div class="colour-5"></div>
+        <div class="colour-6"></div>
+        <div class="colour-7"></div>
+        <div class="colour-8"></div>
+        <div class="colour-9"></div>
+        <div class="colour-10"></div>
     </div>
     <h4>L increasing by 10%</h4>
     <div class="lprog">
@@ -109,12 +137,17 @@
         <div class="colour-3"></div>
         <div class="colour-4"></div>
         <div class="colour-5"></div>
+        <div class="colour-6"></div>
+        <div class="colour-7"></div>
+        <div class="colour-8"></div>
+        <div class="colour-9"></div>
+        <div class="colour-10"></div>
     </div>
 </div>
 
 </body>
 <footer>
     <p>This project is part of my journey learning to code.</p>
-    <contact>stevhook@proton.me</contact>
+    <contact><a href="mailto:stevhook@proton.me">stevhook@proton.me</a> </contact>
 </footer>
 </html>
