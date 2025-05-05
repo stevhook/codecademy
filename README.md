@@ -13,8 +13,9 @@ My current progress on a large full-stack developer course is shown below (as at
 ## Challenges
 
 * Web Development Foundations
-    * [Tea Cozy](https://github.com/stevhook/codecademy-challenges/tree/main/web-development-foundations/tea-cozy)
     * [HTML Cheatsheet](https://github.com/stevhook/codecademy/tree/main/web-development-foundations/HTML-cheatsheet)
+    * [Build a Website Style Guide](https://github.com/stevhook/codecademy/tree/main/web-development-foundations/build-a-website-style-guide)
+    * [Tea Cozy](https://github.com/stevhook/codecademy-challenges/tree/main/web-development-foundations/tea-cozy)
 * Building Interactive Websites
     * [Mysterious Organism](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/mysterious-organism)
     * [Piano Keys](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/piano-keys)
