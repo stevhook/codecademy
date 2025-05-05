@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stev's Website Style Guide</title>
+    <link href="resources/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Lexend:wght@100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<nav>
+    
+</nav>
+<body>
+<div class="content">
+    <h1>Website Style Guide</h1>
+    <h4>by Stev</h4>
+    <p>I'm still very new to creating websites, but this is to collect my thoughts on what "my style" is.</p>
+    <h2>Placement</h2>
+    <p>I like a central content divider placed over a larger surrounding image. This can be done by: </p>
+    <ul>
+        <li>set a background image in the body, fix its position and set it to cover</li>
+        <li>set the body to flex around the center</li>
+        <li>set the width of your content div to be roughly 50-60%</li>
+    </ul>
+    <p>This should look like this:</p>
+    <code>
+        body {
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </code>
+    <h2>Colour</h2>
+    <p>I like to use the background image to create the colour pallette. This can be done using a site like <a href="https://coolors.co/image-picker">coolors</a>. An example using the current background would be:</p>
+    <div class="colours">
+        <div class="colour-box">
+            <h5>C8B0A2</h5>
+            <h6>Khaki</h6>
+            <p>A lighter feature colour for buttons or interactive elements</p>
+        </div>
+        <div class="colour-box">
+            <h5>F7DBAB</h5>
+            <h6>Peach Yellow</h6>
+            <p>A lighter colour might serve as a background for text</p>
+        </div>
+        <div class="colour-box">
+            <h5>CF834D</h5>
+            <h6>Caramel</h6>
+            <p>A thematic contrast to the background for links</p>
+        </div>
+        <div class="colour-box">
+            <h5>422F34</h5>
+            <h6>Van Dyke</h6>
+            <p>Darker colours used for fonts and borders</p>
+        </div>
+        <div class="colour-box">
+            <h5>2C181F</h5>
+            <h6>Licorice</h6>
+            <p>Darker colours used for fonts and borders</p>
+        </div>
+    </div>
+    <h2>Font</h2>
+    <p>I like to use <a href="https://fonts.google.com/">Google fonts</a> to find some easier fonts. I think because the background image is often quite busy I prefer simpler fonts, but it is nice to have an accent font for titles. Some examples are below:</p>
+    <div class="font-boxes">
+        <div class="font-box" style="font-family: 'Overlock', sans-serif;">
+            This is Overlock.
+        </div>
+        <div class="font-box" style="font-family: 'Lexend', monospace;">
+            This is Lexend.
+        </div>
+    </div>
+    <div class="font-boxes">
+        <div class="font-box" style="font-family: 'Cabin Sketch', sans-serif;">
+            This is Cabin Sketch.
+        </div>
+        <div class="font-box" style="font-family: 'Special Elite', monospace;">
+            This is Special Elite.
+        </div>
+    </div>
+</div>
+</body>
