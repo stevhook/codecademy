@@ -25,5 +25,16 @@ describe('Calculate', () => {
             //Verify
             assert.equal(result, expectedResult);
         });
+        it('should return factorial of 0', () => {
+            // Setup
+            const expectedResult = 1;
+            const input = 0;
+
+            // Exercise
+            const result = Calculate.factorial(input);
+
+            //Verify
+            assert.equal(result, expectedResult);
+        });
     });
 });
