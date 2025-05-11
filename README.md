@@ -13,16 +13,17 @@ My current progress on a large full-stack developer course is shown below (as at
 ## Challenges
 
 * Web Development Foundations
-    * [HTML Cheatsheet](https://github.com/stevhook/codecademy/tree/main/web-development-foundations/HTML-cheatsheet)
-    * [Build a Website Style Guide](https://github.com/stevhook/codecademy/tree/main/web-development-foundations/build-a-website-style-guide)
-    * [Tea Cozy](https://github.com/stevhook/codecademy-challenges/tree/main/web-development-foundations/tea-cozy)
+    * [HTML Cheatsheet](https://github.com/stevhook/codecademy/tree/main/web-development-foundations/HTML-cheatsheet) - exploring & explaining colour referencing
+    * [Build a Website Style Guide](https://github.com/stevhook/codecademy/tree/main/web-development-foundations/build-a-website-style-guide) - creating a style guide website
+    * [Tea Cozy](https://github.com/stevhook/codecademy-challenges/tree/main/web-development-foundations/tea-cozy) - creating a website to specification
 * Building Interactive Websites
-    * [Mysterious Organism](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/mysterious-organism)
-    * [Piano Keys](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/piano-keys)
-    * [Form-A-Story](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/form-a-story)
+    * [Mysterious Organism](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/mysterious-organism) - java functions
+    * [Piano Keys](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/piano-keys) - java functions and DOM interaction
+    * [Form-A-Story](https://github.com/stevhook/codecademy-challenges/tree/main/interactive-websites/form-a-story) - java functions and DOM interaction
 * Front-end Development
-  * [Build a Library](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/build-a-library)
-  * [School Catalogue](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/school-catalogue)
+  * [Build a Library](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/build-a-library) - Class constructors
+  * [School Catalogue](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/school-catalogue) - Factory functions for classes 
+  * [Rooster Regulation]() - Mocha unit testing
 
 ## Portfolio projects
 
