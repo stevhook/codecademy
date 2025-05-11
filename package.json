@@ -1,0 +1,23 @@
+{
+  "name": "codecademy",
+  "version": "1.0.0",
+  "description": "As part of my learning, I have been completing Codecademy courses. My progress can be seen on my [Codecademy profile](https://www.codecademy.com/profiles/Stev1202).",
+  "homepage": "https://github.com/stevhook/codecademy#readme",
+  "bugs": {
+    "url": "https://github.com/stevhook/codecademy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevhook/codecademy.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test:factorial": "mocha front-end-development/factorial-feature/test/**/*.js"
+  },
+  "devDependencies": {
+    "mocha": "^11.2.2"
+  }
+}
