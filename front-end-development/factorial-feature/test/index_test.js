@@ -4,7 +4,15 @@ var Calculate =  require('../index.js')
 describe('Calculate', () => {
     describe('.factorial', () => {
         it('should return factorial of number', () => {
-            assert.equal(Calculate.factorial(5), 120);
+            // Setup
+            const expectedResult = 120;
+            const input = 5;
+            
+            // Exercise
+            const result = Calculate.factorial(input);
+            
+            //Verify
+            assert.equal(result, expectedResult);
         });
     });
 });
