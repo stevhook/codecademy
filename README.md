@@ -23,7 +23,7 @@ My current progress on a large full-stack developer course is shown below (as at
 * Front-end Development
   * [Build a Library](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/build-a-library) - Class constructors
   * [School Catalogue](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/school-catalogue) - Factory functions for classes 
-  * [Rooster Regulation]() - Mocha unit testing
+  * [Factorial Feature](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/factorial-feature)  - Test driven development implementing a factorial function and testing using mocha asserts.
 
 ## Portfolio projects
 
