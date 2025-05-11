@@ -1,6 +1,10 @@
 ﻿const Calculate = {
-    factorial() {
-        return 120;
+    factorial(input) {
+        let factorialResult = 1;
+        for (let i = input; i >= 1; i--) {
+            factorialResult = factorialResult * i;
+        };
+        return factorialResult;
     }
 }
 
