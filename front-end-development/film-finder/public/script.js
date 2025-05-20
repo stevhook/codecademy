@@ -2,8 +2,6 @@
 const tmdbBaseUrl = "https://api.themoviedb.org/3";
 const playBtn = document.getElementById("playBtn");
 
-const selectedGenre = getSelectedGenre();
-
 const getGenres = async () => {
     const genreRequestEndpoint = "/genre/movie/list";
     const requestParams = "?api_key=" + tmdbKey;
@@ -21,6 +19,7 @@ const getGenres = async () => {
 };
 
 const getMovies = async () => {
+    const selectedGenre = getSelectedGenre();
     const discoverMovieEndpoint = "/discover/movie";
     const requestParams = "?api_key=" + tmdbKey + "&with_genres=" + selectedGenre;
     const urlToFetch = tmdbBaseUrl + discoverMovieEndpoint + requestParams;
@@ -54,11 +53,15 @@ const getMovieInfo = async (movie) => {
 };
 
 // Gets a list of movies and ultimately displays the info of a random movie from the list
-const showRandomMovie = () => {
+const showRandomMovie = async () => {
     const movieInfo = document.getElementById("movieInfo");
     if (movieInfo.childNodes.length > 0) {
         clearCurrentMovie();
     }
+    const movies = await getMovies();
+    const randomMovie = await getRandomMovie(movies)
+    const info = await getMovieInfo(randomMovie)
+    displayMovie(info)
 };
 
 getGenres().then(populateGenreDropdown);
