@@ -24,6 +24,7 @@ My current progress on a large full-stack developer course is shown below (as at
   * [Build a Library](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/build-a-library) - Class constructors
   * [School Catalogue](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/school-catalogue) - Factory functions for classes 
   * [Factorial Feature](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/factorial-feature)  - Test driven development implementing a factorial function and testing using mocha asserts.
+  * [Film Finder](https://github.com/stevhook/codecademy-challenges/tree/main/front-end-development/film-finder) - Using APIs to create a film picker website.
 
 ## Portfolio projects
 
